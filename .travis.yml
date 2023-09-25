@@ -11,8 +11,8 @@ env:
   global:
     - GITHUB_TOKEN="${PUBLIC_GITHUB_TOKEN_2023_07_10}"
 
-before_install:
-  - echo "$DOCKERHUB_TOKEN" | docker login -u "icdevops" --password-stdin
+#before_install:
+#  - echo "$DOCKERHUB_TOKEN" | docker login -u "icdevops" --password-stdin
 
 jobs:
   include:
