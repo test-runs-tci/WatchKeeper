@@ -1,6 +1,7 @@
 # TEST RUN
 language: node_js
-dist: jammy
+dist: focal
+group: edge
 node_js:
   - "18"
 
